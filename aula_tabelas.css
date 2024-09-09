@@ -1,0 +1,29 @@
+table{
+    margin: auto;
+    width: 80%;
+    font-family: 'Times New Roman', Times, serif;
+    border-collapse: collapse;
+}
+th{
+    background-color: crimson;
+    color: whitesmoke;
+    border: 2px solid black;
+}
+td{
+    background-color: gainsboro;
+    border: 1px solid crimson;
+    text-align: center;
+}
+tbody td{
+    padding: .5em;
+}
+tbody td:hover{
+    background-color: grey;
+    color: whitesmoke;
+    transition: .3s;
+    cursor: pointer;
+}
+.scroll{
+    width: 100%;
+    overflow: auto;
+}

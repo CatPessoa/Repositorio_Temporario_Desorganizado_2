@@ -1,0 +1,31 @@
+body{
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: #003153;
+    margin: auto;
+    width: 70%;
+}
+
+h1{
+    text-align: center;
+    border-bottom: 2px solid snow;
+}
+
+p{
+    border: 2px solid #e34234;
+    padding: 10px 10px 2px 5px;
+    background-color:white;
+    color: black;
+}
+
+.p1{
+    outline: 2px solid #d4af37;
+}
+
+.p2{
+    margin-top: 25px;
+}
+
+.p3{
+    margin-right: 200px;
+}

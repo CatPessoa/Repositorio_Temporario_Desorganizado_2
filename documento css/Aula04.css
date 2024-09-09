@@ -1,0 +1,22 @@
+body{
+    background-color: whitesmoke;
+}
+
+p{
+    width: 500px;
+    background-color: aqua;
+    border: 5px solid red;
+    box-sizing: border-box;
+}
+
+.p01{
+    padding: 25px;
+}
+
+.p02{
+    padding: 25px;
+}
+
+.p03{
+    padding: 25px;
+}

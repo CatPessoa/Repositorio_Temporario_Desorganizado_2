@@ -1,0 +1,30 @@
+h1{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkblue;
+    background-color: darkgray;
+}
+h2{text-transform: uppercase;
+}
+body{
+    background-color:gray;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    color: darkgray;
+    background-color: darkblue;
+    font-size: 20px;
+}
+
+.fernando{
+    background-color: cyan;
+    color: gray
+}
+.p3{
+    text-decoration: underline;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}

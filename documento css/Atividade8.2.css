@@ -1,0 +1,68 @@
+body{
+    margin: auto;
+    width: 60%;
+    background-image: url(../Imagens/Sasuke.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    text-align: center;
+    border: 2px solid white;
+}
+
+h2{
+    color: white;
+    text-shadow: 2px 2px red;
+    text-decoration: underline;
+}
+
+.img01{
+    width: 600px;
+    height: 350px;
+    float: center;
+    border: 2px solid red;
+}
+p{
+    padding: 10px;
+    color: white;
+}
+.img02{
+    width: 200px;
+    height: 300px;
+    border: 2px solid red;
+    float: left;
+}
+.img03{
+    width: 200px;
+    height: 300px;
+    border: 2px solid red;
+    float: right;
+}
+
+.img01:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.img02:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+.img03:hover{
+    transform: scale(1.1);
+    transition:0.5s;
+}
+
+a{
+    text-decoration: none;
+    padding: 6px;
+    border-radius: 10px;
+}
+.pag{
+    display: inline-block;
+    background-color: white;
+    color: red;
+    border-radius: 15px;
+}
+.pag:hover{
+    color:white;
+    border:2px solid red;
+}

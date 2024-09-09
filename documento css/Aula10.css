@@ -1,0 +1,85 @@
+body{
+    margin: 0 ;
+    padding: 0 ;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: lightgray;
+}
+
+.nav_bar{
+    background-color: #373434;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+}
+.nav_bar_logo{
+    border: 2px solid lawngreen;
+    color: lawngreen;
+    margin: left 20px;
+    padding: 20px 10px;
+    border-radius: 100%;
+}
+.nav_lista{
+    display: flex;
+    justify-content: space-around;
+    width: 30%;
+    list-style-type: none;
+}
+.nav_lista li a{
+    border: 2px solid lawngreen;
+    color: lawngreen;
+    text-decoration: none;
+    border-radius: 100%;
+    padding: 20px 15px;
+}
+
+main{
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+main h1{
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.titulo{
+    width: 80%;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: 300px;
+    width: 80%;
+    margin-bottom: 5px;
+}
+.card_container{
+    border: 2px solid lawngreen;
+    width: 20%;
+    padding: 20px;
+    border-radius: 20px;
+}
+.card_container:hover{
+    background-color: #373434;
+    color: lawngreen;
+    font-weight: bold;
+    transition: 0,3s;
+    cursor: pointer;
+}
+.card_container h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+footer{
+    background-color: #373434;
+    color: lawngreen;
+    margin-top: 100px;
+    text-align: center;
+    padding: 10px;
+}

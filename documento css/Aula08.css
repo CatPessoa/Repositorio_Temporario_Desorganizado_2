@@ -1,0 +1,33 @@
+body{
+    background-color: cadetblue;
+}
+main{
+    background-color: aliceblue;
+    margin: 100px;
+}
+ul{
+    background-color: blue;
+    margin: 50px;
+}
+section{
+    background-color: crimson;
+}
+
+article{
+    width: fit-content;
+    background-color: lightgrey;
+}
+#div_lorem{
+    width: 500px;
+    height:600px;
+    padding: 30px;
+    border: 47px solid red;
+}
+#div_lorem p{
+    background-color: rgb(80, 79, 79);
+}
+
+span{
+    border: 10px solid cornflowerblue;
+    display: block;
+}

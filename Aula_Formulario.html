@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="Aula_Formulario.css">
+</head>
+<body>
+    <form action="" method="post"></form>
+        <fieldset>
+            <legend>Login</legend>
+
+            <label for="user">Usuario</label>
+            <input type="text" id="user" required placeholder="Digite seu nome" autofocus>
+
+            <label for="password"> Senha</label>
+            <input type="password" name="" id="password" placeholder="Digite sua Senha">
+
+        </fieldset>
+        <fieldset>
+            <legend>Email</legend>
+            <label for="email">email</label>
+            <input type="email" name="" id="email" required placeholder="Digite seu Email">
+            
+            <label for="number"> Numero</label>
+            <input type="number" name="" id="number" placeholder="Numero de telefone" max="10">
+
+            <br><br>
+            <label for="nascimento">Nascimento</label>
+            <input type="date" name id="" min="2024-01-01">
+
+            <label for="">
+                <input type="radio" name="opcao" id="" value="s" />Sim
+            </label>
+            <label for="">
+                <input type="radio" name="opcao" id="" value="s" />Não
+            </label>
+
+            <br><br>
+
+            <input type="submit" value="Enviar">
+            <br><br>
+
+
+        </fieldset>
+        <fieldset>
+            <legend>Area de Interesse</legend>
+            <label>
+                <input type="checkbox" name="interesse" id="" value="Morre1">Morre1
+            </label>
+            <label>
+                <input type="checkbox" name="interesse" id="" value="Morre2">Morre2
+            </label>
+            <label>
+                <input type="checkbox" name="interesse" id="" value="Morre3">Morre3
+            </label>
+            <label>
+                <input type="checkbox" name="interesse" id="" value="Morre4">Morre4
+            </label>
+
+            <br><br>
+            <textarea cols="50" rows="8" readonly>
+                Normas do Contrato
+
+                Não pode se demitir
+
+                Não pode subir de cargo
+            </textarea>
+            <label>
+                <input type="checkbox"> Li e aceito os termos de Contrato
+            </label>
+            <br><br>
+
+            <input type="button" value="botão">
+            <input type="submit" value="Enviar">
+            <button>Botão</button>
+            <br><br>
+            <input type="search">
+            <input type="range" min="0" max="100" step="2">
+            <br><br>
+            <input type="color">
+            <br><br>
+            <input type="time">
+
+            <br><br>
+
+            <label for="combustivel">Nivel do combustivel
+                <meter id="combustivel" min="0" max="100" low="30" high="90"value="50" optimum="50"></meter>
+            </label>
+            </fieldset>
+        </body>
+</html>

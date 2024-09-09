@@ -1,0 +1,47 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: whitesmoke;
+}
+nav{
+    background-color: lightskyblue;
+    padding: 3rem;
+    margin-bottom: 1em;
+}
+.Sessao{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-self: flex-start;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: lightgray;
+    margin-left:4em;
+    margin-right:4em;
+    padding: 5vh;
+    margin-bottom: 1em;
+    border: 3px solid red;
+}
+.card_container{
+    background-color: white;
+    border-radius:6px;
+    padding: 16px 3em;
+    text-align: center;
+    
+}
+.acorda_fernando{
+    display: flex;
+    justify-content: space-around;
+    gap: 2em;
+
+}
+footer{
+    background-color:deepskyblue;
+    padding: 3rem;
+    margin: 0;
+}

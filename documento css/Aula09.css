@@ -1,0 +1,44 @@
+body{
+    font-size: 20px;
+}
+.flexbox{
+    border: 3px solid orangered;
+    height: 250px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+.flexbox div{
+    border: 2px solid green;
+    width: 100px;
+
+}
+
+.flex-container2{
+    justify-content:end;
+}
+
+.flex-container3{
+    justify-content:space-around;
+    align-items: center;
+    /* justify-content: ;
+    flex-direction: ;
+    align-content: ; */
+}
+
+.flex-container4{
+    align-items: center;
+    flex-direction: row;
+    height: 400px;
+    justify-content: space-evenly;
+}
+
+.flex-container4 div{
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+
+.flex-container4 .div02{
+    background-color: yellowgreen;
+}

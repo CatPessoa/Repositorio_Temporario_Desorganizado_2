@@ -1,0 +1,16 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+}
+
+.nav_bar{
+    background-color: crimson;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 6em;
+}
+.nav_bar_logo{
+    color: white;
+    padding: 2em;
+}

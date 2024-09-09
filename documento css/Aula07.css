@@ -1,0 +1,25 @@
+body{
+    margin: auto;
+    background-image:url(../Imagens/ab58cc75dcb2e42555cf7e614216350a.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    margin: auto;
+    width: 60%;
+}
+p{
+    margin: auto;
+    width: 60%; 
+}
+.img01{
+    float: right;
+}
